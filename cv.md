@@ -7,7 +7,9 @@
  * GitHub: [RV87K](https://github.com/RV87K)
  * Email: [kamehebr@gmail.com](https://kamehebr@gmail.com)
  * Phone number: +79142123030
-  
+  ![Photo Roman K.](C:/Users/pvyzb/Desktop/rs_scholl/rsschool-cv/img/Roman_02.jpg)
+
+
 
 
 ### About myself  

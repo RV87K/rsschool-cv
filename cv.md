@@ -17,3 +17,14 @@ I would like to get position a junior front-end developer at the Epam company.
 I like learning something new, solve difficult tasks, train my brain and rise up all time.  
 
 
+### Skills
+*Base knowledge of:*
+  * Javascript
+  * Html
+  * Css
+  * Scss
+  * Git
+  * Gulp
+  * Figma
+  * Photoshop
+

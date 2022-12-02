@@ -28,3 +28,10 @@ I like learning something new, solve difficult tasks, train my brain and rise up
   * Figma
   * Photoshop
 
+
+### Work expirience
+* Course from Vadim Prokopchuk [internet shop](https://github.com/RV87K/gydrobikes.git)
+* Course Html and Css from [Html academy](https://htmlacademy.ru/intensive/htmlcss) 
+* Course [Javascript 2.0](https://itgid.info/ru/course/js20) from Alex Lushenko
+
+

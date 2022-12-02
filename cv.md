@@ -9,3 +9,11 @@
  * Phone number: +79142123030
 
 
+### About myself  
+ At this moment I working like supervisor at the huge company in the seaport. And already got several rewards from company management because optimized and hastened technical process.
+
+I would like to get position a junior front-end developer at the Epam company. 
+
+I like learning something new, solve difficult tasks, train my brain and rise up all time.  
+
+

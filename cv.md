@@ -47,6 +47,16 @@ University education
 > specialty economist manager
 
 
+### Code
+```
+const squareMetrs = function(widthA, widthB) {
+  return widthA*widthB
+} 
+
+console.log(squareMetrs(578,467))
+```
+
+
 ### Languages
 * Russian(native)
 * English(b1)

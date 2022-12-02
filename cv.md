@@ -35,3 +35,13 @@ I like learning something new, solve difficult tasks, train my brain and rise up
 * Course [Javascript 2.0](https://itgid.info/ru/course/js20) from Alex Lushenko
 
 
+### Education
+University education
+> Pacific State University 
+> graduation 14.01.2013
+> specialty economist manager
+
+
+### Languages
+* Rassian(native)
+* English(b1)

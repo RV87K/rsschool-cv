@@ -38,10 +38,12 @@ I like learning something new, solve difficult tasks, train my brain and rise up
 ### Education
 University education
 > Pacific State University 
+>
 > graduation 14.01.2013
+>
 > specialty economist manager
 
 
 ### Languages
-* Rassian(native)
+* Russian(native)
 * English(b1)

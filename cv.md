@@ -40,7 +40,6 @@ _Base knowledge of:_
 ### Education
 
 University education
-
 > Pacific State University
 >
 > graduation 14.01.2013

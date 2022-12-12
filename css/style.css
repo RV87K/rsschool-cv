@@ -1,5 +1,9 @@
-html {
+body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f1faee;
+    font-family: "Ampero";
 }
 
 *,
@@ -37,9 +41,46 @@ p {
     width: 1200px;
 }
 
-.header {
-    /* background-color: crimson; */
+.header__inner-top {
+    background: linear-gradient(270deg,  #345a5bff, #636441ff, #d6bbbeff);
 }
+
+.header__menu-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cv-title__wrapper {
+    padding: 0 35px;
+    display: flex;
+    align-items:center;
+}
+
+.cv-photo {
+    width: 225px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* CSS HEX
 --charcoal: #203a4bff;

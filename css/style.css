@@ -54,15 +54,21 @@ p {
     padding: 0 35px;
     display: flex;
     align-items:center;
+    position: relative;
+}
+
+.cv-title {
+    margin-left: 50px;
 }
 
 .cv-photo {
     width: 225px;
     height: 200px;
-    border-radius: 50%;
     margin-left: auto;
-    margin-right: 0;
+    margin-right: 80px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
+
 
 
 

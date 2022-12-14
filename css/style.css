@@ -37,38 +37,71 @@ p {
 
 .container {
     margin: 0 auto;
-    padding: 10px;
+    padding: 0 10px;
     width: 1200px;
 }
 
-.header__inner-top {
-    background: linear-gradient(270deg,  #345a5bff, #636441ff, #d6bbbeff);
+.header-top {
+    background: linear-gradient(270deg, #345a5bff, #636441ff, #d6bbbeff);
 }
 
-.header__menu-list {
+.header-top__menu-list {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 54px;
+    font-size: 20px;
 }
 
-.cv-title__wrapper {
-    padding: 0 35px;
+.header-top__menu-link {
+    transition: all .5s;
+    position: absolute;
+    padding: 15px 0 18px;
+    color: #2F3035;
+    transform: translate(-50%, -50%);
+}
+
+.header-top__menu-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 5px;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(197, 207, 45);
+    transition: all .3s;
+}
+
+.header-top__menu-link:hover {
+    color: #000;
+}
+
+.header-top__menu-link:hover::before {
+    width: 100%;
+    right: auto;
+    left: 0;
+}
+
+.header-bottom__wrapper {
     display: flex;
-    align-items:center;
-    position: relative;
+    align-items: center;
 }
 
 .cv-title {
-    margin-left: 50px;
+    margin-right: 350px;
 }
-
+.cv-title:hover {
+    text-shadow: 1px 1px 3px rgb(170, 179, 49), 0 0 1em rgb(73, 145, 105), 0 0 0.5em rgb(74, 128, 102);
+}
 .cv-photo {
-    width: 225px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: 80px;
+    width: 250px;
+    height: 250px;
+    margin-left: 80px;
+    margin-right: auto;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
-
 
 
 

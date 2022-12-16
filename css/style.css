@@ -76,10 +76,6 @@ p {
     transition: all .3s;
 }
 
-.header-top__menu-link:hover {
-    color: #000;
-}
-
 .header-top__menu-link:hover::before {
     width: 100%;
     right: auto;
@@ -115,20 +111,24 @@ p {
 .phone-icon {
     margin-left: 90px;
     margin-top: 20px;
+    transition:all .6s;
 }
 
-/* .cv-title::after {
-    content: "";
+@keyframes moving {
+    0% {
+        margin-bottom: 1px;
+    }
+    50% {margin-top: 1px;
+    }
+    100% {
+        margin-bottom: 1px;
+    }
+}
 
-    position: absolute;
-    bottom: -55px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 40px;
-    height: 40px;
-    background-image: url("../img/phone.svg");
-} 
-*/
+.phone-animation {
+    margin-left: -55px;
+    transition:all .6s;
+}
 
 .cv-title:hover {
     text-shadow: 1px 1px 3px rgb(170, 179, 49), 0 0 1em rgb(73, 145, 105), 0 0 0.5em rgb(74, 128, 102);
@@ -138,10 +138,21 @@ p {
     display: none;
     position: absolute;
     top: 130px;
+    animation: showInfo 2s;
 }
+
+@keyframes showInfo {
+    from {
+        opacity: 0;
+    }
+    to {opacity: 1;
+    }
+}
+
 .personal-information.show-block {
     display: block;
     margin-top: 10px;
+    transition:all 1s;
 }
 
 .personal-information__item {

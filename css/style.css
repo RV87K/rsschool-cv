@@ -86,19 +86,13 @@ p {
 
 .header-bottom__wrapper {
     display: flex;
-    /* align-items: center; */
+    margin-bottom: 40px;
 }
 
-.cv-title {
-    margin-top: 80px;
-    margin-right: 350px;
-}
-.cv-title:hover {
-    text-shadow: 1px 1px 3px rgb(170, 179, 49), 0 0 1em rgb(73, 145, 105), 0 0 0.5em rgb(74, 128, 102);
-}
 .cv-photo {
     width: 250px;
     height: 250px;
+    margin-top: 20px;
     margin-left: 80px;
     margin-right: auto;
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
@@ -107,6 +101,30 @@ p {
 .header-bottom__content {
     display: flex;
     flex-direction: column;
+}
+
+.cv-title {
+    position: relative;
+    margin-top: 50px;
+    margin-right: 350px;
+    cursor: pointer;
+}
+
+.cv-title::after {
+    content: "";
+
+    position: absolute;
+    bottom: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    /* background-color: red; */
+    background-image: url("../img/phone.svg");
+}
+
+.cv-title:hover {
+    text-shadow: 1px 1px 3px rgb(170, 179, 49), 0 0 1em rgb(73, 145, 105), 0 0 0.5em rgb(74, 128, 102);
 }
 
 .about-myself {

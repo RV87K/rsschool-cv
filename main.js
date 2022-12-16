@@ -3,7 +3,7 @@ const cvTitle = document.querySelector('.cv-title')
 
 
 cvTitle.addEventListener('click', function() {
-  block.classList.add('show-block');
+  block.classList.toggle('show-block');
 })
 console.log(cvTitle)
 

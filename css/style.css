@@ -86,10 +86,11 @@ p {
 
 .header-bottom__wrapper {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .cv-title {
+    margin-top: 80px;
     margin-right: 350px;
 }
 .cv-title:hover {
@@ -103,6 +104,14 @@ p {
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 
+.header-bottom__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-myself {
+    display: none;
+}
 
 
 

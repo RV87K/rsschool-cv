@@ -127,11 +127,16 @@ p {
     text-shadow: 1px 1px 3px rgb(170, 179, 49), 0 0 1em rgb(73, 145, 105), 0 0 0.5em rgb(74, 128, 102);
 }
 
-.about-myself {
+.personal-information {
     display: none;
 }
-.about-myself.show-block {
+.personal-information.show-block {
     display: block;
+    margin-top: 10px;
+}
+
+.personal-information__item {
+    padding: 5px;
 }
 
 

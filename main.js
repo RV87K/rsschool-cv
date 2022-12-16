@@ -1,4 +1,4 @@
-const block = document.querySelector('.about-myself')
+const block = document.querySelector('.personal-information')
 const cvTitle = document.querySelector('.cv-title')
 
 

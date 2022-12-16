@@ -112,6 +112,10 @@ p {
 .about-myself {
     display: none;
 }
+.about-myself.show-block {
+    display: block;
+}
+
 
 
 

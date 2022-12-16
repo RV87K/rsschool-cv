@@ -4,6 +4,8 @@ body {
     padding: 0;
     background-color: #f1faee;
     font-family: "Ampero";
+    font-size: 20px;
+    line-height: 20px;
 }
 
 *,
@@ -139,7 +141,28 @@ p {
     padding: 5px;
 }
 
+.section {
+    line-height: 35px;
+}
 
+.section-title {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    
+}
+
+.section-title::after {
+    content: '';
+
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 70%;
+    height: 3px;
+    background-color: #636441ff;
+    border-radius: 3px;
+}
 
 
 

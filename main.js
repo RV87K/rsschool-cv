@@ -1,9 +1,10 @@
-const block = document.querySelector('.personal-information')
-const cvTitle = document.querySelector('.cv-title')
+const persInfo = document.querySelector(".personal-information");
+const cvTitle = document.querySelector(".cv-title");
 
+cvTitle.addEventListener("click", () => {
+  persInfo.classList.toggle("show-block");
 
-cvTitle.addEventListener('click', function() {
-  block.classList.toggle('show-block');
-})
-console.log(cvTitle)
-
+  if (persInfo.classList.contains("show-block")) {
+    console.log("hi");
+  }
+});

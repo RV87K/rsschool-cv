@@ -112,7 +112,12 @@ p {
     cursor: pointer;
 }
 
-.cv-title::after {
+.phone-icon {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+/* .cv-title::after {
     content: "";
 
     position: absolute;
@@ -121,9 +126,9 @@ p {
     transform: translateX(-50%);
     width: 40px;
     height: 40px;
-    /* background-color: red; */
     background-image: url("../img/phone.svg");
-}
+} 
+*/
 
 .cv-title:hover {
     text-shadow: 1px 1px 3px rgb(170, 179, 49), 0 0 1em rgb(73, 145, 105), 0 0 0.5em rgb(74, 128, 102);
@@ -131,6 +136,8 @@ p {
 
 .personal-information {
     display: none;
+    position: absolute;
+    top: 130px;
 }
 .personal-information.show-block {
     display: block;

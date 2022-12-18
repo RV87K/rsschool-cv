@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -204,6 +208,15 @@ p {
     padding: 15px;
 }
 
+.main-footer__github-link svg path {
+    stroke: #fff;
+    fill: #fff;
+}
+
+.main-footer__github-link svg:hover path {
+    stroke: rgb(110, 136, 68);
+    fill: rgb(110, 136, 68);
+}
 
 
 
